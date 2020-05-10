@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-restapi",
+  "version": "1.0.0",
+  "description": "nodejs to create rest call using MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository" : {
+   "type" : "git",
+   "url" : "https://github.com/npm/npm.git"
+ },
+  "author": {
+    "name": "Rohit Nale",
+    "email": "rohitnale738@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mysql": "^2.13.0"
+  }
+}
